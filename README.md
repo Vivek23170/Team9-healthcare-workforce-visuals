@@ -10,7 +10,7 @@ Provide actionable insights into the **healthcare workforce** using real-time, i
 Recruitment consultants, job seekers, and strategic workforce planners.
 
 🔹 **Data Source:**  
-[Synthea](https://synthea.mitre.org/) - synthetic healthcare dataset.
+[Click here for the datasource](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) -  healthcare dataset.
 
 ---
 
