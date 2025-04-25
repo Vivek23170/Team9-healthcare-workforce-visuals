@@ -23,7 +23,7 @@ Recruitment consultants, job seekers, and strategic workforce planners.
 
 ---
 
-## 🧩 Attrition Trends  
+## Attrition Trends  
 ![Attrition Trends Dashboard](https://github.com/user-attachments/assets/b5a7ce00-0ed7-4420-a6b6-e5a2d9b070fa)
 
 Key Insights:
@@ -33,7 +33,7 @@ Key Insights:
 
 ---
 
-## 👥 Job Insights  
+## Job Insights  
 ![Job Engagement Dashboard](https://github.com/user-attachments/assets/f09fc0d1-f2f7-437d-b12a-664d8d46b8df)
 
 
@@ -44,7 +44,7 @@ Key Insights:
 
 ---
 
-## 🧠 Role Demand  
+## Role Demand  
 ![Role Demand Dashboard](https://github.com/user-attachments/assets/135f0295-9950-4fe6-aee7-f74051f3b531)
 
 
@@ -55,7 +55,7 @@ Key Insights:
 
 ---
 
-## 💰 Revenue Insights  
+## Revenue Insights  
 ![Revenue Insights Dashboard](https://github.com/user-attachments/assets/3d470923-e802-49b9-a4ac-1d20d8ccc79a)
 
 
@@ -66,7 +66,7 @@ Key Insights:
 
 ---
 
-## 👨‍💻 Team Members 
+## Team Members 
 
 - Vivek Gudavalli  
 - Krishna Vams Gummadi  
