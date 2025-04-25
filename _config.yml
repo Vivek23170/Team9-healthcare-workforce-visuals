@@ -1,0 +1,8 @@
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-include-cache
+
+# Add custom CSS
+include:
+  - assets/css
