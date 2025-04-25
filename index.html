@@ -2,165 +2,169 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>FutureWorks Solutions - Healthcare Workforce Analytics</title>
+  <title>FutureWorks Solutions | Healthcare Analytics</title>
   <style>
     body {
-      background: #f9f9f9;
-      font-family: 'Segoe UI', sans-serif;
-      color: #222;
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 2rem;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', 'Roboto', sans-serif;
+      background-color: #f8fafc;
+      color: #333;
       line-height: 1.6;
     }
-    h1, h2 {
+
+    header {
+      background-color: #005a8d;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    section h2 {
       color: #005a8d;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
       border-bottom: 2px solid #005a8d;
-      padding-bottom: 0.5rem;
+      display: inline-block;
+      padding-bottom: 0.2rem;
     }
-    h3 {
-      color: #333;
-      margin-top: 1.5rem;
-    }
-    p, li {
-      font-size: 1rem;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    .section {
-      margin-bottom: 60px;
-    }
-    .team {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px;
-      margin-top: 1rem;
-    }
+
     img {
       width: 100%;
-      margin-top: 10px;
-      margin-bottom: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-top: 1rem;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     }
+
+    ul {
+      margin-top: 1rem;
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background-color: #005a8d;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
     a {
       color: #007acc;
       text-decoration: none;
       font-weight: bold;
     }
+
     a:hover {
       text-decoration: underline;
-    }
-    hr {
-      border: 0;
-      height: 1px;
-      background: #ccc;
-      margin: 2rem 0;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>FutureWorks Solutions</h1>
-  <h2>Healthcare Workforce Intelligence & Strategy Dashboard</h2>
+  <header>
+    <h1>FutureWorks Solutions</h1>
+    <p>Healthcare Workforce Intelligence & Strategy Dashboard</p>
+  </header>
 
-  <p><strong>Project Objective:</strong> Deliver real-time, actionable insights into healthcare workforce dynamics, enabling smarter hiring, career planning, and organizational strategies.</p>
+  <div class="container">
 
-  <p><strong>Audience:</strong> Recruitment consultants, HR professionals, workforce strategists, and healthcare job seekers seeking market insights.</p>
+    <section>
+      <h2>Project Overview</h2>
+      <p>Delivering real-time, actionable insights into healthcare workforce dynamics, empowering smarter hiring strategies, career planning, and business outcomes.</p>
+      <p><strong>Audience:</strong> Recruiters, HR consultants, healthcare job seekers.</p>
+      <p><strong>Data Source:</strong> <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset" target="_blank">IBM HR Analytics Dataset</a></p>
+    </section>
 
-  <p><strong>Data Source:</strong> 
-    <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset" target="_blank">
-      IBM HR Analytics Dataset on Kaggle
-    </a>
-  </p>
+    <section>
+      <h2>Attrition Trends</h2>
+      <img src="https://github.com/user-attachments/assets/b5a7ce00-0ed7-4420-a6b6-e5a2d9b070fa" alt="Attrition Trends Dashboard">
+      <ul>
+        <li>Higher attrition among mid-level roles and lower-education employees.</li>
+        <li>Female attrition rate exceeds male attrition across divisions.</li>
+        <li>Sales and HR divisions face the highest turnover risks.</li>
+      </ul>
+    </section>
 
-  <hr>
+    <section>
+      <h2>Job Engagement Insights</h2>
+      <img src="https://github.com/user-attachments/assets/f09fc0d1-f2f7-437d-b12a-664d8d46b8df" alt="Job Engagement Dashboard">
+      <ul>
+        <li>Work-life balance declines with age, especially post-40.</li>
+        <li>R&D and Medical Research departments show highest engagement scores.</li>
+        <li>Mixed satisfaction levels among entry-level roles.</li>
+      </ul>
+    </section>
 
-  <div class="section">
-    <h2>Attrition Trends</h2>
-    <img src="https://github.com/user-attachments/assets/b5a7ce00-0ed7-4420-a6b6-e5a2d9b070fa" alt="Attrition Trends Dashboard">
-    
-    <h3>Key Insights:</h3>
-    <ul>
-      <li>Attrition is significantly higher among employees with lower educational qualifications and mid-level job roles.</li>
-      <li>Female attrition rates exceed male rates in key operational divisions, signaling potential engagement gaps.</li>
-      <li>Divisions like Sales and Human Resources show elevated turnover, impacting overall workforce stability.</li>
-    </ul>
-    
-    <h3>Impact:</h3>
-    <p>Identifying high-risk groups allows healthcare organizations to implement targeted retention strategies, improving workforce continuity and reducing rehiring costs.</p>
+    <section>
+      <h2>Role Demand</h2>
+      <img src="https://github.com/user-attachments/assets/135f0295-9950-4fe6-aee7-f74051f3b531" alt="Role Demand Dashboard">
+      <ul>
+        <li>Clinical certifications remain in high demand across healthcare roles.</li>
+        <li>Growing shortages in IT support roles in healthcare technology.</li>
+        <li>Cross-functional skills attract premium salaries and faster placements.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Revenue Insights</h2>
+      <img src="https://github.com/user-attachments/assets/3d470923-e802-49b9-a4ac-1d20d8ccc79a" alt="Revenue Insights Dashboard">
+      <ul>
+        <li>Patient care roles drive highest revenue contribution.</li>
+        <li>Higher career readiness correlates with higher income potential.</li>
+        <li>Top three revenue-generating fields are Clinical Care, R&D, and Specialized Consulting.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Team Members</h2>
+      <ul>
+        <li>Vivek Gudavalli</li>
+        <li>Krishna Vams Gummadi</li>
+        <li>Nikhil Reddy Malle</li>
+        <li>Hemanth Mallela</li>
+        <li>Vinay Krishna Mallela</li>
+        <li>Avinash Chowdary Mallineni</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Live Dashboard</h2>
+      <p><a href="#">👉 Click here to view the Power BI Dashboard (Coming Soon)</a></p>
+    </section>
+
   </div>
 
-  <div class="section">
-    <h2>Job Insights</h2>
-    <img src="https://github.com/user-attachments/assets/f09fc0d1-f2f7-437d-b12a-664d8d46b8df" alt="Job Engagement Dashboard">
-    
-    <h3>Key Insights:</h3>
-    <ul>
-      <li>Work-life balance ratings decline with increasing age, suggesting challenges in senior employee engagement.</li>
-      <li>Departments like R&D and Medical Research report the highest satisfaction and stability scores.</li>
-      <li>Entry-level roles display mixed satisfaction levels, highlighting the need for improved onboarding processes.</li>
-    </ul>
-
-    <h3>Impact:</h3>
-    <p>Optimizing work environments based on department-specific feedback helps improve employee engagement, boosting retention and overall productivity.</p>
-  </div>
-
-  <div class="section">
-    <h2>Role Demand</h2>
-    <img src="https://github.com/user-attachments/assets/135f0295-9950-4fe6-aee7-f74051f3b531" alt="Role Demand Dashboard">
-    
-    <h3>Key Insights:</h3>
-    <ul>
-      <li>Healthcare roles requiring clinical certifications (e.g., Nursing, Laboratory Analysis) remain in highest demand.</li>
-      <li>IT Support roles in healthcare technology departments show growing skill shortages.</li>
-      <li>Roles with cross-functional skillsets (technical + administrative) attract higher pay rates and faster hiring cycles.</li>
-    </ul>
-
-    <h3>Impact:</h3>
-    <p>Focusing on emerging and high-demand roles enables job seekers to align skill development efforts, and helps consultants prioritize critical hiring needs.</p>
-  </div>
-
-  <div class="section">
-    <h2>Revenue Insights</h2>
-    <img src="https://github.com/user-attachments/assets/3d470923-e802-49b9-a4ac-1d20d8ccc79a" alt="Revenue Insights Dashboard">
-    
-    <h3>Key Insights:</h3>
-    <ul>
-      <li>Job roles associated with patient care (e.g., Physicians, Senior Nurses) generate the highest revenue margins per employee.</li>
-      <li>Lower-revenue roles often correlate with higher attrition and lower satisfaction scores.</li>
-      <li>Career readiness scores positively correlate with income potential, indicating a strong return on skill development investment.</li>
-    </ul>
-
-    <h3>Impact:</h3>
-    <p>Aligning employee development programs toward high-impact roles ensures higher organizational profitability and more attractive career pathways for individuals.</p>
-  </div>
-
-  <hr>
-
-  <div class="section">
-    <h2>Team 9 – Contributors</h2>
-    <div class="team">
-      <p>Vivek Gudavalli</p>
-      <p>Krishna Vams Gummadi</p>
-      <p>Nikhil Reddy Malle</p>
-      <p>Hemanth Mallela</p>
-      <p>Vinay Krishna Mallela</p>
-      <p>Avinash Chowdary Mallineni</p>
-    </div>
-  </div>
-
-  <div class="section">
-    <h2>View the Live Dashboard</h2>
-    <p><a href="#">👉 Click here to view the Power BI Dashboard (Coming Soon)</a></p>
-  </div>
-
-  <hr>
-
-  <footer style="text-align:center; font-size: 0.9rem; margin-top: 40px;">
-    By Team 9 | Saint Louis University | Tool used Power BI Desktop
+  <footer>
+     By Team 9 | Saint Louis University | Tool used Power BI
   </footer>
 
 </body>
