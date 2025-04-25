@@ -1,8 +1,16 @@
-markdown: kramdown
+title: Team9 Healthcare Workforce Visuals
+description: Power BI Dashboard for Healthcare Employability Insights
 theme: minima
-plugins:
-  - jekyll-include-cache
 
-# Add custom CSS
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: "markdown"
+    values:
+      layout: default
+
 include:
-  - assets/css
+  - custom.css
