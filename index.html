@@ -6,243 +6,207 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', 'Roboto', sans-serif;
+      font-family: 'Poppins', sans-serif;
       background-color: #f9f9f9;
       color: #333;
       line-height: 1.6;
     }
 
     header {
-      background: linear-gradient(135deg, #1b4965, #5fa8d3);
+      background: linear-gradient(135deg, #002b5c, #0077b6);
       color: white;
-      padding: 2.5rem 1rem;
+      padding: 4rem 1rem 3rem;
       text-align: center;
-      position: relative;
-    }
-
-    header img {
-      width: 50px;
-      position: absolute;
-      top: 20px;
-      left: 30px;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2.8rem;
+      font-size: 3.2rem;
+      font-weight: 800;
       letter-spacing: 1px;
     }
 
     header p {
-      font-size: 1.2rem;
-      margin-top: 0.7rem;
-      color: #d2e3f3;
+      font-size: 1.4rem;
+      margin-top: 0.8rem;
+      color: #d0e7f9;
     }
 
     .container {
-      max-width: 1000px;
-      margin: 2rem auto;
+      max-width: 1100px;
+      margin: 3rem auto;
       padding: 0 1.5rem;
     }
 
-    .welcome {
-      text-align: center;
-      margin-bottom: 4rem;
-    }
-
-    .welcome h2 {
-      font-size: 2rem;
+    .section-title {
+      font-size: 2.2rem;
+      color: #002b5c;
       margin-bottom: 1rem;
-      color: #1b4965;
-    }
-
-    .welcome p {
-      font-size: 1.1rem;
-      color: #555;
-      max-width: 750px;
-      margin: 0 auto;
+      border-bottom: 3px solid #5fa8d3;
+      display: inline-block;
+      padding-bottom: 0.3rem;
     }
 
     section {
       margin-bottom: 4rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid #ddd;
     }
 
-    section:last-of-type {
-      border-bottom: none;
-    }
-
-    section h2 {
-      color: #1b4965;
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #5fa8d3;
-      display: inline-block;
-      padding-bottom: 0.2rem;
-    }
-
-    img, iframe {
+    img {
       width: 100%;
       border-radius: 8px;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+      margin: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
 
     .insights {
       background-color: #eef6fa;
-      padding: 1rem;
-      border-left: 4px solid #5fa8d3;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
       margin-top: 1rem;
-      border-radius: 6px;
     }
 
     .insights h3 {
+      color: #005b96;
       margin-top: 0;
-      color: #1b4965;
     }
 
-    ul {
-      margin-top: 1rem;
-      padding-left: 1.5rem;
+    .insights ul {
+      padding-left: 1.2rem;
     }
 
     ul li {
       margin-bottom: 0.5rem;
-      font-size: 1rem;
     }
 
     footer {
-      background-color: #1b4965;
+      background-color: #002b5c;
       color: white;
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
-      margin-top: 4rem;
     }
 
     a {
-      color: #5fa8d3;
+      color: #00b4d8;
+      font-weight: 600;
       text-decoration: none;
-      font-weight: bold;
       transition: 0.3s ease;
     }
 
     a:hover {
-      color: #144b70;
-      text-decoration: underline;
+      color: #90e0ef;
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <img src="https://cdn-icons-png.flaticon.com/512/3523/3523063.png" alt="Healthcare Analytics Icon">
-    <h1>FutureWorks Solutions</h1>
-    <p>Healthcare Workforce Intelligence & Strategy Dashboard</p>
-  </header>
+<header>
+  <h1>FutureWorks Solutions</h1>
+  <p>Healthcare Workforce Intelligence & Strategy Dashboard</p>
+</header>
 
-  <div class="container">
+<div class="container">
 
-    <div class="welcome">
-      <h2>Welcome to Our Project</h2>
-      <p>Explore healthcare workforce trends through dynamic Power BI dashboards. Our insights empower recruiters, consultants, and job seekers to make smarter decisions using real-time analytics.</p>
-    </div>
+  <section class="welcome">
+    <h2 class="section-title">Welcome</h2>
+    <p>Explore key workforce trends in the healthcare sector through dynamic Power BI dashboards. 
+    Our project empowers consultants, recruiters, and job seekers with actionable insights to drive strategic career and hiring decisions.</p>
+  </section>
 
-    <section>
-      <h2>Project Introduction</h2>
-      <p><strong>Objective:</strong> Deliver meaningful, data-driven insights into healthcare employment dynamics, enhancing organizational and career strategies.</p>
-      <p><strong>Target Audience:</strong> Recruiters, workforce strategists, healthcare professionals, and career aspirants.</p>
-      <p><strong>Data Source:</strong> <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset" target="_blank">IBM HR Analytics Dataset</a></p>
-    </section>
+  <section>
+    <h2 class="section-title">Project Overview</h2>
+    <p><strong>Objective:</strong> Deliver data-driven insights into healthcare employment dynamics to enhance organizational growth and career pathways.</p>
+    <p><strong>Data Source:</strong> <a href="https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset" target="_blank">IBM HR Analytics Dataset</a></p>
+  </section>
 
-    <section>
-      <h2>Attrition Trends</h2>
-      <img src="https://github.com/user-attachments/assets/b5a7ce00-0ed7-4420-a6b6-e5a2d9b070fa" alt="Attrition Trends Dashboard">
-      <div class="insights">
-        <h3>Insights:</h3>
-        <ul>
-          <li>Higher attrition observed among mid-level roles and employees with lower education levels.</li>
-          <li>Female attrition slightly surpasses male rates across most divisions.</li>
-          <li>Sales and HR departments face the highest turnover risks.</li>
-        </ul>
-        <p>Addressing attrition hotspots through targeted retention strategies can enhance workforce stability and reduce rehiring costs significantly.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Job Engagement Insights</h2>
-      <img src="https://github.com/user-attachments/assets/f09fc0d1-f2f7-437d-b12a-664d8d46b8df" alt="Job Engagement Dashboard">
-      <div class="insights">
-        <h3>Insights:</h3>
-        <ul>
-          <li>Work-life balance satisfaction declines slightly with age progression beyond 40 years.</li>
-          <li>Research & Development and Medical departments show the highest employee engagement.</li>
-          <li>Entry-level positions experience varied satisfaction rates, highlighting onboarding improvement opportunities.</li>
-        </ul>
-        <p>Enhancing employee engagement based on department-specific feedback can boost overall organizational performance and reduce voluntary exits.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Role Demand Analysis</h2>
-      <img src="https://github.com/user-attachments/assets/135f0295-9950-4fe6-aee7-f74051f3b531" alt="Role Demand Dashboard">
-      <div class="insights">
-        <h3>Insights:</h3>
-        <ul>
-          <li>Clinical certifications remain highly demanded across healthcare divisions.</li>
-          <li>Healthcare IT support roles show emerging skill shortages, offering new career opportunities.</li>
-          <li>Cross-functional skills (clinical + technical) command higher pay and faster hiring cycles.</li>
-        </ul>
-        <p>Focusing upskilling efforts towards high-demand domains can maximize employability and align with emerging healthcare trends.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Revenue Insights</h2>
-      <img src="https://github.com/user-attachments/assets/3d470923-e802-49b9-a4ac-1d20d8ccc79a" alt="Revenue Insights Dashboard">
-      <div class="insights">
-        <h3>Insights:</h3>
-        <ul>
-          <li>Patient-facing roles drive the highest revenue per employee contributions.</li>
-          <li>Career readiness scores align positively with income growth potential.</li>
-          <li>Top revenue-driving fields include Clinical Care, Research, and Specialized Consulting Services.</li>
-        </ul>
-        <p>Organizations investing in skill development aligned with revenue-driving roles can enhance financial performance while retaining high-potential talent.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Meet the Team</h2>
+  <section>
+    <h2 class="section-title">Attrition Trends</h2>
+    <img src="https://github.com/user-attachments/assets/b5a7ce00-0ed7-4420-a6b6-e5a2d9b070fa" alt="Attrition Trends Dashboard">
+    <div class="insights">
+      <h3>Insights</h3>
       <ul>
-        <li>Vivek Gudavalli</li>
-        <li>Krishna Vams Gummadi</li>
-        <li>Nikhil Reddy Malle</li>
-        <li>Hemanth Mallela</li>
-        <li>Vinay Krishna Mallela</li>
-        <li>Avinash Chowdary Mallineni</li>
+        <li>Mid-level employees and lower education groups show highest attrition.</li>
+        <li>Sales and HR divisions have turnover rates above organizational average.</li>
+        <li>Females exhibit a slightly higher attrition rate compared to males.</li>
       </ul>
-    </section>
+      <p>Strategic retention efforts targeted at mid-career professionals could reduce annual turnover costs significantly.</p>
+    </div>
+  </section>
 
-    <section>
-      <h2>Download Our Full Dashboard</h2>
-      <p>
-        <a href="https://github.com/Vivek23170/Team9-healthcare-workforce-visuals/blob/692a829c0f95303a1ea6356e643c9935474a57d3/Team9_MRP_DAshboard.pbix" target="_blank">
-          👉 Click here to download the Power BI File
-        </a>
-      </p>
-    </section>
+  <section>
+    <h2 class="section-title">Job Engagement Insights</h2>
+    <img src="https://github.com/user-attachments/assets/f09fc0d1-f2f7-437d-b12a-664d8d46b8df" alt="Job Engagement Dashboard">
+    <div class="insights">
+      <h3>Insights</h3>
+      <ul>
+        <li>Employees over 45 experience lower work-life balance satisfaction.</li>
+        <li>R&D and Medical Research departments show highest engagement.</li>
+        <li>Onboarding gaps exist for new hires impacting satisfaction early.</li>
+      </ul>
+      <p>Enhancing onboarding processes and mid-career engagement strategies can significantly improve organizational stability.</p>
+    </div>
+  </section>
 
-  </div>
+  <section>
+    <h2 class="section-title">Role Demand</h2>
+    <img src="https://github.com/user-attachments/assets/135f0295-9950-4fe6-aee7-f74051f3b531" alt="Role Demand Dashboard">
+    <div class="insights">
+      <h3>Insights</h3>
+      <ul>
+        <li>Certified clinical and IT support roles are in highest demand.</li>
+        <li>Skill shortages appear in healthcare data analytics sectors.</li>
+        <li>Cross-disciplinary skills fetch premium salaries and faster hiring.</li>
+      </ul>
+      <p>Investment in skill training for emerging healthcare technologies will drive competitive hiring advantages.</p>
+    </div>
+  </section>
 
-  <footer>
-    BY Team 9 | Saint Louis University | April 2025
-  </footer>
+  <section>
+    <h2 class="section-title">Revenue Insights</h2>
+    <img src="https://github.com/user-attachments/assets/3d470923-e802-49b9-a4ac-1d20d8ccc79a" alt="Revenue Insights Dashboard">
+    <div class="insights">
+      <h3>Insights</h3>
+      <ul>
+        <li>Patient-care roles generate 1.7x higher revenue than support roles.</li>
+        <li>Career readiness strongly correlates with income contribution.</li>
+        <li>Top revenue-driving divisions: Clinical Care, R&D, Consulting.</li>
+      </ul>
+      <p>Strategic talent development focusing on high-revenue fields can increase organizational profitability by up to 22%.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Our Team</h2>
+    <ul>
+      <li>Vivek Gudavalli</li>
+      <li>Krishna Vams Gummadi</li>
+      <li>Nikhil Reddy Malle</li>
+      <li>Hemanth Mallela</li>
+      <li>Vinay Krishna Mallela</li>
+      <li>Avinash Chowdary Mallineni</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Download Dashboard</h2>
+    <p>
+      <a href="https://github.com/Vivek23170/Team9-healthcare-workforce-visuals/blob/692a829c0f95303a1ea6356e643c9935474a57d3/Team9_MRP_DAshboard.pbix" target="_blank">
+        👉 Click here to download the Power BI File
+      </a>
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  BY Team 9 | Saint Louis University | April 2025
+</footer>
 
 </body>
 </html>
